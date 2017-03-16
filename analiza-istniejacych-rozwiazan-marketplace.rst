@@ -8,7 +8,7 @@ Cel
 ~~~
 
 Opracowanie listy istniejących rozwiązań, które można wykorzystać do
-stworzenia marketplace’u aplikacje.gov.pl.
+stworzenia marketplace’u Aplikacje.gov.pl.
 
 Sposób realizacji
 ~~~~~~~~~~~~~~~~~
@@ -16,7 +16,7 @@ Sposób realizacji
 -  Zgromadzenie listy wymaganych od marketplace’u funkcji.
 -  Zgromadzenie listy istniejących rozwiązań.
 -  Sprawdzenie, czy rozwiązania mają funkcje wymagane od marketplace’u
-   aplikacje.gov.pl.
+   Aplikacje.gov.pl.
 -  Zebranie rozwiązań, które spełniają wszystkie wymagania.
 -  Zebranie rozwiązań, które mają część funkcji, a funkcje brakujące
    mogą być uzupełnione przez inny system.
@@ -39,7 +39,7 @@ Założenie polskiej platformy aplikacji dla administracji
 Cel
 ```
 
-Serwis aplikacje.gov.pl ma zapewnić administracji rządowej (a w dalszej
+Serwis Aplikacje.gov.pl ma zapewnić administracji rządowej (a w dalszej
 perspektywie także samorządowej) jedno z najważniejszych narzędzi do
 codziennej pracy operacyjnej. Ma on funkcjonować na zasadzie
 marketplace’u. Pierwszą aplikacją będzie usługa do elektronicznego
@@ -50,7 +50,7 @@ Korzyści dla administracji
 ``````````````````````````
 
 -  Serwis Aplikacje.gov.pl oprócz aplikacji do zarządzania dokumentacją
-   i modułami dodatkowymi uzupełniającymi jej funkcjonalności, będzie
+   i modułami dodatkowymi uzupełniającymi jej funkcjonalność, będzie
    oferował inne aplikacje wspierające pracę urzędu. Wszystkie aplikacje
    oferowane będą w chmurze publicznej jako SaaS oraz będą posiadały
    zestandaryzowane API, co umożliwi wymianę dokumentów i integrację w
@@ -68,10 +68,9 @@ Korzyści dla administracji
    aplikacje w nowy, niedostępny obecnie sposób.
 -  Portal Aplikacje.gov.pl oraz pracujące na nim aplikacje zostaną
    uruchomione na specjalnie zaprojektowanej w ramach projektu
-   infrastrukturze serwerowej chronionej od strony bezpieczeństwa przez
-   zespół i systemy SOC (Security Operation Center). Możliwość
-   przeglądania dostępnych aplikacji i modułów będzie publiczna, możliwa
-   dla każdego.
+   infrastrukturze serwerowej chronionej przez zespół i systemy SOC
+   (Security Operation Center). Możliwość przeglądania dostępnych aplikacji
+   i modułów będzie publiczna.
 
 Warunki użycia
 ``````````````
@@ -87,7 +86,7 @@ reprezentanta będzie mógł on wyznaczyć koordynatorów, którzy będą
 odpowiedzialni za parametryzację aplikacji i procesów biznesowych
 specyficznych dla danej organizacji, takich jak struktura organizacyjna
 czy wybór modułów w ramach aplikacji. Finalną wersję parametrów
-ostatecznie potwierdza reprezentant.
+ostatecznie potwierdzi reprezentant.
 
 Analogiczne zagraniczne systemy oferowane dla administracji
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -112,37 +111,35 @@ Apps.gov to standardowe umowy ramowe, które podpisuje amerykańska
 administracja z dostawcami usług (nie tylko IT).
 
 W Estonii - kraju uchodzącym za światowego pioniera rozwiązań z zakresu
-e-administracji nie funkcjonuje obecnie podobne rozwiązanie. Kwestia
+e-administracji - nie funkcjonuje obecnie podobne rozwiązanie. Kwestia
 wprowadzenia podobnych rozwiązań była podnoszona w kraju już od 2012
 roku, jednak ze względu na skalę rynku wewnętrznego (populacja Estonii
 to 1.3 mln osób, 200 urzędów) sądzono, że efekt skali będzie właściwie
 niewidoczny. Większość aplikacji wykorzystywanych w administracji była
 więc kupowana bezpośrednio od usługodawców, którzy dodatkowo
-rozbudowywali swoje produkty o dodatkowe funkcjonalności. Niektóre z
-estońskich urzędów korzystają jednak z usług w chmurze (pierwszym
-wdrożeniem tego typu była narodowa strona turystyczna funkcjonująca na
-chmurze amazona od 2009 roku). Prawo estońskie nie stawia przeszkód w
-korzystaniu z oprogramowania/ chmur, których dane są przesyłane i
-przetwarzane poza granicami terytorium estońskiego. Ostatecznie władze
-estońskie podjęły decyzję o stworzeniu rządowej chmury. 26 sierpnia 2016
-roku firma Ericsson wygrała przetarg, który będzie realizowała w
-partnerstwie z innymi firmami i konsorcjum publiczno-prywatnym. W
-rozwiązaniu zaplanowane jest m.in wykorzystanie rozwiązań operujących na
-blockchainach.
+rozbudowywali swoje produkty o dodatkowe funkcje. Niektóre z estońskich
+urzędów korzystają jednak z usług w chmurze (pierwszym wdrożeniem tego typu
+była narodowa strona turystyczna funkcjonująca na chmurze Amazona od 2009
+roku). Prawo estońskie nie stawia przeszkód w korzystaniu z oprogramowania
+/ chmur, których dane są przesyłane i przetwarzane poza granicami terytorium
+estońskiego. Ostatecznie władze estońskie podjęły decyzję o stworzeniu
+rządowej chmury. 26 sierpnia 2016 roku firma Ericsson wygrała przetarg,
+który będzie realizowała w partnerstwie z innymi firmami i konsorcjum
+publiczno-prywatnym. W rozwiązaniu zaplanowane jest m.in wykorzystanie
+rozwiązań operujących na blockchainach.
 
 W porównaniu do Digital Marketplace i Apps.gov (szczegóły planowanych
-rozwiązań estońskich nie są znane) zaletą proponowanego rozwiązania jest
-wzajemna integracja aplikacji, które mogą się znaleźć na
-aplikacje.gov.pl. Wadą może być mniejsza liczba dostępnych aplikacji
-(przynajmniej początkowo).
+rozwiązań estońskich nie są znane), zaletą proponowanego rozwiązania jest
+wzajemna integracja aplikacji, które mogą się znaleźć na Aplikacje.gov.pl.
+Wadą może być mniejsza liczba dostępnych aplikacji (przynajmniej początkowo).
 
 Metodologia
 ~~~~~~~~~~~
 
 Jednym z podstawowych założeń projektu EZD RP B+R, w ramach którego
-powstaje platforma Aplikacje.gov.pl jest recykling opracowanych już
+powstaje platforma Aplikacje.gov.pl, jest recykling opracowanych już
 rozwiązań programistycznych (software reuse, code reuse) i
-wykorzystywanie rozwiązań open source opracowanych przez
+wykorzystywanie rozwiązań otwartych opracowanych przez
 deweloperów, inne firmy i instytucje z całego świata. Portal
 Aplikacje.gov.pl stworzony będzie na bazie technologii open source i
 udostępniany na licencji open source, dzięki czemu będzie mógł być
@@ -151,25 +148,25 @@ rozwijany w ramach społeczności informatyków.
 Wprowadzenie metodologii recyklingu wiedzy deweloperów i reużywania
 narzędzi informatycznych wynika bezpośrednio również z wymagań
 narzuconych w ustawie o ponownym wykorzystywaniu informacji sektora
-publicznego przygotowanej przez Ministerstwo Cyfryzacji, która
-implementuje dyrektywę Parlamentu Europejskiego i Rady 2013/37/UE z dnia
-26 czerwca 2013 r. Wprowadzeniu takich rozwiązań przyświeca również
-konieczność realizacji zobowiązań Polski wobec Komisji Europejskiej -
-maksymalnego wykorzystania produktów, które powstały w ramach
+publicznego przygotowanej przez Ministerstwo Cyfryzacji z dnia 25 lutego
+2016, która implementuje dyrektywę Parlamentu Europejskiego i Rady
+2013/37/UE z dnia 26 czerwca 2013 r. Wprowadzeniu takich rozwiązań
+przyświeca również konieczność realizacji zobowiązań Polski wobec Komisji
+Europejskiej - maksymalnego wykorzystania produktów, które powstały w ramach
 poprzedniej edycji Programu Operacyjnego Innowacyjna Gospodarka oś 7.
 
 Ze względu na przyjęte założenie o recyklingu rozwiązań w pracach nad
-opracowaniem technologicznych marketplace w pierwszej kolejności
+opracowaniem technologicznych marketplace'ów, w pierwszej kolejności
 przeprowadzona została analiza istniejących już na rynku rozwiązań,
-które można wykorzystać w stworzeniu marketplace dla polskiej
+które można wykorzystać w stworzeniu marketplace'u dla polskiej
 administracji publicznej.
 
 Wymagane funkcje marketplace’u
 ------------------------------
 
 Marketplace powinien mieć minimalną liczbę funkcji. Dodatkowe funkcje
-będą instalowane przez konkretne aplikacje dostępne wewnątrz
-marketplace. Takie założenie wynika z faktu, że systemy o mniejszej
+będą implementowane przez konkretne aplikacje dostępne wewnątrz
+marketplace'u. Takie założenie wynika z faktu, że systemy o mniejszej
 liczbie funkcji są z reguły mniejsze, łatwiejsze do utrzymania i
 łatwiejsze do modyfikacji.
 
@@ -177,15 +174,15 @@ Marketplace powinien:
 
 -  przechowywać informacje o podmiotach (instytucjach, instancjach
    systemu)
--  przechowywać informację o wszystkich dostępnych aplikacjach + o ich
-   możliwych konfiguracjach + o ich konfiguracji globalnej
+-  przechowywać informację o wszystkich dostępnych aplikacjach i ich
+   możliwych konfiguracjach, w tym konfiguracji globalnej
 -  posiadać interfejs do zarządzania podmiotami
 -  posiadać interfejs (shell, WWW, ...?) do zarządzania możliwymi do
    zainstalowania aplikacjami
 
 Marketplace powinien dla każdego podmiotu:
 
--  przechowywać informację o zainstalowanych aplikacjach + o ich
+-  przechowywać informacje o zainstalowanych aplikacjach i ich
    lokalnej konfiguracji
 -  serwować interfejs WWW do zarządzania zainstalowanymi aplikacjami
 -  mając dane miejsce wykonania (VM, JVM, ...?) uruchomić w nim
@@ -195,10 +192,10 @@ Marketplace powinien dla każdego podmiotu:
 -  (?) zrestartować miejsce wykonania - zakończyć wszystkie działające i
    uruchomić wszystkie zainstalowane aplikacje
 
-Marketplace powinien dla każdej działającej albo uruchamianej aplikacji
+Marketplace powinien dla każdej działającej albo uruchamianej aplikacji:
 
--  przechowywać informację gdzie się ona znajduje
--  (wynika z powyższego) wskazać gdzie znajdują się aplikacje od których
+-  przechowywać informację o tym, gdzie się ona znajduje
+-  (wynika z powyższego) wskazać, gdzie znajdują się aplikacje, od których
    jest zależna (wstrzykiwanie zależności)
 
 Zgromadzenie dostępnych narzędzi
@@ -213,7 +210,7 @@ jakich narzędzi korzystają istniejące serwisy:
 -  Apps.gov (USA) - podobnie jak wyżej: spis dostawców rozwiązań
    chmurowych.
 
-Szukano też narzędzi poza ww systemami.
+Szukano też narzędzi poza ww. systemami.
 
 Analiza dostępnych narzędzi
 ---------------------------
@@ -275,7 +272,7 @@ Analiza dostępnych narzędzi
 |                  |                                |                             |podmiotami.       |
 |                  |Nie umie zarządzać podmiotami,  |                             |                  |
 |                  |zbiorem zainstalowanych         |                             |Można użyć jako   |
-|                  |aplikacji per                   |                             |„zarządcy per     |
+|                  |aplikacji per                   |                             |„zarządcę per     |
 |                  |podmiot. Wstrzykiwanie          |                             |podmiot” — każdy  |
 |                  |zależności (service discovery)  |                             |klient ma swojego.|
 |                  |jest realizowane przez          |                             |                  |
@@ -284,7 +281,7 @@ Analiza dostępnych narzędzi
 |                  |mikroserwisy).                  |                             |                  |
 +------------------+--------------------------------+-----------------------------+------------------+
 |Kubernetes_       |Nie wszystkie.                  |open source                  |Można użyć jako   |
-|                  |                                |                             |„zarządcy per     |
+|                  |                                |                             |„zarządcę per     |
 |                  |Podobnie jak wyżej - system do  |                             |podmiot”.         |
 |                  |uruchamiania aplikacji w        |                             |                  |
 |                  |kontenerach. Nie zajmuje się    |                             |                  |
@@ -308,7 +305,7 @@ Zmapowane ryzyka i sposoby ich przeciwdziałania
 |                 |                                         |                                        |
 |                 |                                         |                                        |
 +-----------------+-----------------------------------------+----------------------------------------+
-|YaaS             |YaaS działa jako Software as a Service   |Brak — rozwiązanie SaaS oznacza brak    |
+|YaaS             |YaaS działa jako Software as a Service.  |Brak — rozwiązanie SaaS oznacza brak    |
 |                 |                                         |możliwości rozbudowywanie aplikacji     |
 |                 |                                         |przez zewnętrzne podmioty, co wyklucza  |
 |                 |                                         |zastosowanie tego rozwiązania.          |
@@ -325,9 +322,9 @@ Zmapowane ryzyka i sposoby ich przeciwdziałania
 +-----------------+-----------------------------------------+----------------------------------------+
 |carbon-appmgt    |Ze względu na to, że rozwiązania te mają |Należy przeprowadzić weryfikację        |
 +-----------------+mało wymaganych funkcji marketplace,     |trudności ich integracji z wybranym     |
-|Kong             |nakład pracy włożonej w ich dobudowanie  |systemem                                |
+|Kong             |nakład pracy włożonej w ich dobudowanie  |systemem.                               |
 |                 |może być niewspółmierny do korzyści      |                                        |
-|                 |związanych z ich użyciem                 |                                        |
+|                 |związanych z ich użyciem.                |                                        |
 |                 |                                         |                                        |
 +-----------------+-----------------------------------------+----------------------------------------+
 
